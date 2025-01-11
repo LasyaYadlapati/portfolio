@@ -112,6 +112,12 @@ section {
   border-bottom: 2px solid #ccc;
 }
 
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-bottom: 1em;
+}
+
 .experience,
 .experience article,
 .experience ul {
@@ -125,7 +131,7 @@ section {
 }
 
 .description ul {
-  padding-bottom: 10px;
+  padding-bottom: 1em;
   padding-top: 2px;
 }
 
@@ -150,7 +156,7 @@ section {
 }
 
 .education .description ul {
-  padding-bottom: 10px;
+  padding-bottom: 1em;
   padding-top: 2px;
 }
 
