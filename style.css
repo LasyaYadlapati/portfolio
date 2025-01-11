@@ -54,8 +54,14 @@ nav a:hover {
 }
 
 nav a.current {
-  border-bottom: 0.4em solid gainsboro;
+  border-bottom: 0.4em solid darkgrey;
   padding-bottom: 8px;
+}
+
+nav a.current:hover {
+  color: black;
+  border-bottom: 0.4em solid darkgrey;
+  background-color: gainsboro;
 }
 
 :root {
