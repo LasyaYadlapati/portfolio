@@ -3,4 +3,188 @@ body {
 	   and use the OS’s UI font as the website font
 	 */
   font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: max(2em, (100% - 100ch) / 2);
+  accent-color: var(--color-accent);
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+nav ul,
+nav li {
+  display: contents;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 2.5em;
+  border-bottom: 1px solid oklch(80% 3% 200);
+}
+
+nav a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+  border-bottom: 0.4em solid var(--color-accent);
+  background-color: oklch(62.98% 0.0937 205.96 / 12%);
+}
+
+nav a.current {
+  border-bottom: 0.4em solid gainsboro;
+  padding-bottom: 8px;
+}
+
+:root {
+  --color-accent: oklch(62.98% 0.1077 205.96);
+  accent-color: var(--color-accent);
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+
+label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+}
+
+button {
+  grid-column: 1 / -1;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+
+.projects article h2 {
+  margin: 0;
+}
+
+.resume,
+.bio {
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-rows: subgrid;
+}
+
+.title {
+  text-align: left;
+  font-weight: bold;
+  padding: 0.25em;
+  background-color: rgb(219, 224, 230);
+  border-bottom: 2px solid #ccc;
+}
+
+.experience,
+.experience article,
+.experience ul {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description ul {
+  padding-bottom: 10px;
+  padding-top: 2px;
+}
+
+.experience img {
+  vertical-align: middle;
+}
+
+.company-name {
+  padding-left: 35px;
+}
+
+.experience ul {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+.education,
+.education article,
+.education ul {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.education .description ul {
+  padding-bottom: 10px;
+  padding-top: 2px;
+}
+
+.education img {
+  vertical-align: middle;
+}
+
+.education .school-name {
+  padding-left: 35px;
+}
+
+.education ul {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.projects .description ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 0.5em;
+}
+
+.projects .project-link a,
+.experience .description a {
+  color: #226ebe;
+  text-decoration: none;
+}
+
+.projects .project-link a:hover,
+.experience .description a:hover {
+  text-decoration: underline;
 }

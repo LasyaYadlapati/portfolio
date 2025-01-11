@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="../contact/index.html">Contact</a></li>
         <li><a href="../projects/index.html">Projects</a></li>
-        <li><a href="../projects/index.html">Resume</a></li>
+        <li><a class="current" href="../projects/index.html">Resume</a></li>
         <li>
           <a href="https://github.com/LasyaYadlapati" target="_blank"
             >GitHub Profile</a
@@ -18,14 +20,12 @@
         </li>
       </ul>
     </nav>
-  </head>
-  <body>
     <h1>Resume</h1>
-    <h2>Sai Sri Lasya Yadlapati</h2>
+    <h2 class="resume">Sai Sri Lasya Yadlapati</h2>
 
-    <section id="bio">
+    <section class="bio">
       <p>
-        <a href="mailto:syadlapati@ucsd.edu">syadlapati@ucsd.edu</a> |
+        <a href="mailto:syadlapati@ucsd.edu">syadlapati@ucsd.edu</a> │
         <a href="https://www.linkedin.com/in/sai-sri-lasya-yadlapati"
           >linkedin.com/in/sai-sri-lasya-yadlapati</a
         >
@@ -33,203 +33,170 @@
       <p>
         Highly driven student with a strong passion for data science and web
         development, actively seeking opportunities to apply technical skills in
-        real-world projects.<br />Committed to collaborating with innovative
-        teams and gaining expertise, while gaining valuable experience to help
-        create meaningful solutions in a variety of fields.
+        real-world projects. Committed to collaborating with innovative teams
+        and gaining expertise, while gaining valuable experience to help create
+        meaningful solutions in a variety of fields.
       </p>
     </section>
 
-    <br />
-
-    <section id="areas_of_expertise">
-      <h3>AREAS OF EXPERTISE</h3>
-      <hr />
-      <table>
-        <tr>
-          <td>Java</td>
-          <td>&emsp;&emsp;</td>
-          <td>Python</td>
-          <td>&emsp;&emsp;</td>
-          <td>MongoDB</td>
-          <td>&emsp;&emsp;&emsp;</td>
-          <td>Git</td>
-          <td>&emsp;&emsp;&emsp;</td>
-          <td>Data Analysis</td>
-        </tr>
-        <tr>
-          <td>Node.js</td>
-          <td>&emsp;&emsp;</td>
-          <td>JavaScript</td>
-          <td>&emsp;&emsp;</td>
-          <td>React</td>
-          <td>&emsp;&emsp;&emsp;</td>
-          <td>CSS, HTML</td>
-          <td>&emsp;&emsp;&emsp;</td>
-          <td>Machine Learning</td>
-        </tr>
-      </table>
+    <section class="areas_of_expertise">
+      <h3 class="title">AREAS OF EXPERTISE</h3>
+      <div class="expertise-grid">
+        <div>Java</div>
+        <div>Python</div>
+        <div>MongoDB</div>
+        <div>Git</div>
+        <div>Data Analysis</div>
+        <div>Node.js</div>
+        <div>JavaScript</div>
+        <div>React</div>
+        <div>CSS, HTML</div>
+        <div>Machine Learning</div>
+      </div>
     </section>
 
-    <br />
+    <section class="experience">
+      <h3 class="title">EXPERIENCE</h3>
 
-    <section id="experience">
-      <h3>EXPERIENCE</h3>
-      <hr />
       <article id="dev_launchers">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <img
-                src="../images/dev_launchers.png"
-                width="30"
-                alt="Dev Launchers Logo"
-              />
-              <strong>Dev Launchers, Full Stack Web Developer</strong>
-            </td>
-            <td align="right">
-              <time datetime="2024-09"></time
-              ><strong>Sep 2024 - Present</strong>
-            </td>
-          </tr>
-        </table>
-      </article>
-      <article id="dev_launchers_desc">
-        <ul>
-          <li>
-            Contributing to the redesign of the landing page, enhancing user
-            experience and visual appeal in line with the organization’s
-            branding and objectives
-          </li>
-          <li>
-            Leveraging React, JavaScript, Tailwind CSS to create a fresh,
-            responsive user interface
-          </li>
-          <li>
-            Actively participating in sprint meetings and weekly updates,
-            collaborating with cross-functional teams to align on project goals
-            and deliverables
-          </li>
-        </ul>
+        <div class="header">
+          <div class="position">
+            <img
+              src="../images/dev_launchers.png"
+              width="30"
+              alt="Dev Launchers Logo"
+            />
+            <strong>Full Stack Web Developer</strong>
+          </div>
+          <div class="duration">
+            <time datetime="2024-09"><strong>Sep 2024 - Present</strong></time>
+          </div>
+        </div>
+        <div class="company-name">
+          <em>Dev Launchers</em>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Contributing to the redesign of the landing page, enhancing user
+              experience and visual appeal in line with the organization’s
+              branding and objectives
+            </li>
+            <li>
+              Leveraging React, JavaScript, Tailwind CSS to create a fresh,
+              responsive user interface
+            </li>
+            <li>
+              Actively participating in sprint meetings and weekly updates,
+              collaborating with cross-functional teams to align on project
+              goals and deliverables
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article id="learnovation">
-        <table width="80%">
-          <tr>
-            <td align="left"></td>
-            <td align="left">
-              <img
-                src="../images/learnovation.jpeg"
-                width="30"
-                alt="Learnovation Academy Logo"
-              />
-              <strong>Learnovation Academy, Full Stack Web Developer</strong>
-            </td>
-            <td align="right">
-              <time datetime="2024-07"></time
-              ><strong>July 2024 - Present</strong>
-            </td>
-          </tr>
-        </table>
-      </article>
-      <article id="learnovation_desc">
-        <ul>
-          <li>
-            Developing
-            <a href="https://www.learnovationacademy.org/"
-              >https://www.learnovationacademy.org/</a
-            >
-            to support low-income students with minimal access to educational
-            opportunities
-          </li>
-          <li>
-            Website provides accessible educational resources that empower
-            individuals to pursue higher education
-          </li>
-          <li>
-            Using Vue.js, Vuex, JavaScript, HTML, CSS, MongoDB, Express.js,
-            Node.js to foster an engaging online learning environment
-          </li>
-        </ul>
+        <div class="header">
+          <div class="position">
+            <img
+              src="../images/learnovation.jpeg"
+              width="30"
+              alt="Learnovation Academy Logo"
+            />
+            <strong>Full Stack Web Developer</strong>
+          </div>
+          <div class="duration">
+            <time datetime="2024-07"><strong>July 2024 - Present</strong></time>
+          </div>
+        </div>
+        <div class="company-name">
+          <em>Learnovation Academy</em>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Developing
+              <a href="https://www.learnovationacademy.org/"
+                >https://www.learnovationacademy.org/</a
+              >
+              to support low-income students with minimal access to educational
+              opportunities
+            </li>
+            <li>
+              Website provides accessible educational resources that empower
+              individuals to pursue higher education
+            </li>
+            <li>
+              Using Vue.js, Vuex, JavaScript, HTML, CSS, MongoDB, Express.js,
+              Node.js to foster an engaging online learning environment
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article id="BoB">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <img
-                src="../images/BoB.jpg"
-                width="30"
-                alt="Dev Launchers Logo"
-              />
-              <strong
-                >Bored of Boredom, Academic Tutor and STEM Department
-                Co-Head</strong
-              >
-            </td>
-            <td align="right">
-              <time datetime="2020-02"><strong>Feb 2020</strong></time> -
-              <time datetime="2023-07"><strong>July 2023</strong></time>
-            </td>
-          </tr>
-        </table>
-      </article>
-      <article id="BoB_desc">
-        <ul>
-          <li>
-            Tutored low-income and academically-challenged students in various
-            programming languages, math subjects, and data science topics
-          </li>
-          <li>
-            Assessed students&#39; progress to identify learning gaps and
-            implemented targeted interventions to improve understanding and
-            performance
-          </li>
-          <li>
-            Collaborated with other departments to integrate STEM concepts
-            across the curriculum and create a supportive learning environment
-          </li>
-        </ul>
+        <div class="header">
+          <div class="position">
+            <img src="../images/BoB.jpg" width="30" alt="BoB Logo" />
+            <strong>Academic Tutor and STEM Department Co-Head</strong>
+          </div>
+          <div class="duration">
+            <time datetime="2020-02"><strong>Feb 2020</strong></time> -
+            <time datetime="2023-07"><strong>July 2023</strong></time>
+          </div>
+        </div>
+        <div class="company-name">
+          <em>Bored of Boredom</em>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Tutored low-income and academically-challenged students in various
+              programming languages, math subjects, and data science topics
+            </li>
+            <li>
+              Assessed students' progress to identify learning gaps and
+              implemented targeted interventions to improve understanding and
+              performance
+            </li>
+            <li>
+              Collaborated with other departments to integrate STEM concepts
+              across the curriculum and create a supportive learning environment
+            </li>
+          </ul>
+        </div>
       </article>
     </section>
 
-    <br />
-
-    <section id="education">
-      <h3>EDUCATION</h3>
-      <hr />
+    <section class="education">
+      <h3 class="title">EDUCATION</h3>
 
       <article id="ucsd">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <img
-                src="../images/ucsd.png"
-                width="30"
-                alt="Dev Launchers Logo"
-              />
-              <strong
-                >Bachelor of Science in Data Science, Minor in
-                Mathematics</strong
-              >
-            </td>
-            <td align="right">
-              <time datetime="2023-09"></time
-              ><strong>Sep 2023 - Present</strong>
-            </td>
-          </tr>
-        </table>
+        <div class="header">
+          <div class="degree">
+            <img src="../images/ucsd.png" width="30" alt="UCSD Logo" />
+            <strong
+              >Bachelor of Science in Data Science, Minor in Mathematics</strong
+            >
+          </div>
+          <div class="duration">
+            <time datetime="2023-09"><strong>Sep 2023 - Present</strong></time>
+          </div>
+        </div>
+        <div class="school-name">
+          <em>University of California, San Diego</em>
+        </div>
       </article>
 
-      <article id="ucsd_desc">
-        <em>University of California, San Diego</em>
+      <article class="description">
         <ul>
           <li>GPA: 3.8/4.0</li>
           <li>
             Relevant Coursework: Principles of Data Science, Programming and
-            Basic Data Structures, Data Structures and Algorithms,<br />
-            Theoretical Foundations of Data Science, Practice and Application of
-            Data Science, Linear Algebra, Calculus and<br />Analytic Geometry,
-            Statistical Methods
+            Basic Data Structures, Data Structures and Algorithms, Theoretical
+            Foundations of Data Science, Practice and Application of Data
+            Science, Linear Algebra, Calculus and Analytic Geometry, Statistical
+            Methods
           </li>
           <li>
             Clubs/Organizations: Association for Computing Machinery (ACM),
@@ -239,57 +206,49 @@
       </article>
 
       <article id="umass">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <img
-                src="../images/umass.png"
-                width="30"
-                alt="Dev Launchers Logo"
-              />
-              <strong>Pre-College Summer Program</strong>
-            </td>
-            <td align="right">
-              <time datetime="2022-07"><strong>July 2022</strong></time> -
-              <time datetime="2022-08"><strong>Aug 2022</strong></time>
-            </td>
-          </tr>
-        </table>
+        <div class="header">
+          <div class="degree">
+            <img src="../images/umass.png" width="30" alt="UMass Logo" />
+            <strong>Pre-College Summer Program</strong>
+          </div>
+          <div class="duration">
+            <time datetime="2022-07"><strong>July 2022</strong></time> -
+            <time datetime="2022-08"><strong>Aug 2022</strong></time>
+          </div>
+        </div>
+        <div class="school-name">
+          <em>University of Massachusetts, Amherst</em>
+        </div>
       </article>
 
-      <article id="umass_desc">
-        <em>University of Massachusetts, Amherst</em>
+      <article class="description">
         <ul>
           <li>Relevant Coursework: Foundations of Data Science</li>
         </ul>
       </article>
 
       <article id="wilcox">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <img
-                src="../images/wilcox.png"
-                width="30"
-                alt="Dev Launchers Logo"
-              />
-              <strong>High School Diploma</strong>
-            </td>
-            <td align="right">
-              <time datetime="2019-08"><strong>Aug 2019</strong></time> -
-              <time datetime="2023-06"><strong>Jun 2023</strong></time>
-            </td>
-          </tr>
-        </table>
+        <div class="header">
+          <div class="degree">
+            <img src="../images/wilcox.png" width="30" alt="Wilcox Logo" />
+            <strong>High School Diploma</strong>
+          </div>
+          <div class="duration">
+            <time datetime="2019-08"><strong>Aug 2019</strong></time> -
+            <time datetime="2023-06"><strong>Jun 2023</strong></time>
+          </div>
+        </div>
+        <div class="school-name">
+          <em>Adrian C. Wilcox High School</em>
+        </div>
       </article>
 
-      <article id="wilcox_desc">
-        <em>Adrian C. Wilcox High School</em>
+      <article class="description">
         <ul>
           <li>GPA: 4.56 (W), 3.98 (UW)</li>
           <li>
             Relevant Coursework: AP Calculus AB/BC, AP Statistics, AP Physics
-            1/2, AP English Language/Literature & Composition,<br />AP European
+            1/2, AP English Language/Literature & Composition, AP European
             History, AP Macroeconomics, AP Government & Politics
           </li>
           <li>
@@ -300,157 +259,130 @@
       </article>
     </section>
 
-    <br />
-
-    <section id="projects">
-      <h3>PROJECTS</h3>
-      <hr />
+    <section class="projects">
+      <h3 class="title">PROJECTS</h3>
 
       <article id="power_outages">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <strong>Power Outages Data Analysis</strong>
-            </td>
-            <td align="right">
-              <time datetime="2024-12"><strong>Dec 2024</strong></time>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Project Webpage:
-              <a href="https://lasya356.github.io/power-outages/">
-                https://lasya356.github.io/power-outages/</a
-              >
-            </td>
-          </tr>
-        </table>
-      </article>
-
-      <article id="power_outages_desc">
-        <ul>
-          <li>
-            Analyzed a U.S. power outages dataset (2000-2016) to identify
-            patterns in outage causes and their relationship to factors like
-            region, climate, and outage duration
-          </li>
-          <li>
-            Developed a Random Forest classifier to predict outage causes,
-            improving accuracy by 18.6% and increasing F1-score by 29.5% through
-            feature engineering and hyperparameter optimization
-          </li>
-          <li>
-            Conducted fairness analysis to assess model performance across US
-            states, concluding no significant precision bias between large and
-            small populations
-          </li>
-        </ul>
+        <div class="header">
+          <strong>Power Outages Data Analysis</strong>
+          <div class="duration">
+            <time datetime="2024-12"><strong>Dec 2024</strong></time>
+          </div>
+        </div>
+        <div class="project-link">
+          Project Webpage:
+          <a href="https://lasya356.github.io/power-outages/">
+            https://lasya356.github.io/power-outages/
+          </a>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Analyzed a U.S. power outages dataset (2000-2016) to identify
+              patterns in outage causes and their relationship to factors like
+              region, climate, and outage duration.
+            </li>
+            <li>
+              Developed a Random Forest classifier to predict outage causes,
+              improving accuracy by 18.6% and increasing F1-score by 29.5%
+              through feature engineering and hyperparameter optimization.
+            </li>
+            <li>
+              Conducted fairness analysis to assess model performance across US
+              states, concluding no significant precision bias between large and
+              small populations.
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article id="meteorite">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <strong>Meteorite Data Analysis</strong>
-            </td>
-            <td align="right">
-              <time datetime="2023-12"><strong>Dec 2023</strong></time>
-            </td>
-          </tr>
-        </table>
-      </article>
-
-      <article id="meteorite_desc">
-        <ul>
-          <li>
-            Analyzed meteorite landing data using hypothesis tests, permutation
-            tests, and bootstrap methods to explore patterns in meteorite masses
-            and geographic distribution
-          </li>
-          <li>
-            Performed data simulations to assess the impact of
-            continent-specific factors and time periods on meteorite size and
-            frequency using Python and statistical techniques
-          </li>
-          <li>
-            Implemented hypothesis tests and confidence intervals to evaluate
-            the relationship between meteorite mass and continent-specific
-            trends, including the impact of the 2000s on observed meteorite data
-          </li>
-        </ul>
+        <div class="header">
+          <strong>Meteorite Data Analysis</strong>
+          <div class="duration">
+            <time datetime="2023-12"><strong>Dec 2023</strong></time>
+          </div>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Analyzed meteorite landing data using hypothesis tests,
+              permutation tests, and bootstrap methods to explore patterns in
+              meteorite masses and geographic distribution.
+            </li>
+            <li>
+              Performed data simulations to assess the impact of
+              continent-specific factors and time periods on meteorite size and
+              frequency using Python and statistical techniques.
+            </li>
+            <li>
+              Implemented hypothesis tests and confidence intervals to evaluate
+              the relationship between meteorite mass and continent-specific
+              trends, including the impact of the 2000s on observed meteorite
+              data.
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article id="tswift">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <strong
-                >TSwift: A Data-Driven Analysis of Taylor Swift's Music</strong
-              >
-            </td>
-            <td align="right">
-              <time datetime="2023-11"><strong>Nov 2023</strong></time>
-            </td>
-          </tr>
-        </table>
-      </article>
-
-      <article id="tswift_desc">
-        <ul>
-          <li>
-            Created interactive Matplotlib visualizations to analyze Taylor
-            Swift&#39;s musical trends, including song releases, relationships
-            between audio features, and tone of lyrics
-          </li>
-          <li>
-            Developed a song recommender system by applying Euclidean distance
-            to compare audio features, allowing users to find similar Taylor
-            Swift songs based on a chosen track from the Spotify&#39;s Billions
-            Club list
-          </li>
-          <li>
-            Used natural language processing with TF-IDF to extract key themes
-            from lyrics in the Lover album, generating word clouds and
-            identifying song-specific keywords to summarize the album&#39;s
-            narrative
-          </li>
-        </ul>
+        <div class="header">
+          <strong
+            >TSwift: A Data-Driven Analysis of Taylor Swift's Music</strong
+          >
+          <div class="duration">
+            <time datetime="2023-11"><strong>Nov 2023</strong></time>
+          </div>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Created interactive Matplotlib visualizations to analyze Taylor
+              Swift's musical trends, including song releases, relationships
+              between audio features, and tone of lyrics.
+            </li>
+            <li>
+              Developed a song recommender system by applying Euclidean distance
+              to compare audio features, allowing users to find similar Taylor
+              Swift songs based on a chosen track from the Spotify's Billions
+              Club list.
+            </li>
+            <li>
+              Used natural language processing with TF-IDF to extract key themes
+              from lyrics in the Lover album, generating word clouds and
+              identifying song-specific keywords to summarize the album's
+              narrative.
+            </li>
+          </ul>
+        </div>
       </article>
 
       <article id="climate_change">
-        <table width="80%">
-          <tr>
-            <td align="left">
-              <strong>Climate Change, Project Leader</strong>
-            </td>
-            <td align="right">
-              <time datetime="2022-07"><strong>July 2022</strong></time> -
-              <time datetime="2022-08"><strong>Aug 2022</strong></time>
-            </td>
-          </tr>
-        </table>
-      </article>
-
-      <article id="climate_change_desc">
-        <ul>
-          <li>
-            Led a team to investigate the relationship between CO2 levels and
-            global temperature anomalies using real-world climate datasets
-          </li>
-          <li>
-            Applied Python, Pandas, NumPy, Scikit-learn, and advanced data
-            visualization tools for statistical analysis of climate data
-          </li>
-          <li>Presented key findings to mentors and peers</li>
-        </ul>
+        <div class="header">
+          <strong>Climate Change, Project Leader</strong>
+          <div class="duration">
+            <time datetime="2022-07"><strong>July 2022</strong></time> -
+            <time datetime="2022-08"><strong>Aug 2022</strong></time>
+          </div>
+        </div>
+        <div class="description">
+          <ul>
+            <li>
+              Led a team to investigate the relationship between CO2 levels and
+              global temperature anomalies using real-world climate datasets.
+            </li>
+            <li>
+              Applied Python, Pandas, NumPy, Scikit-learn, and advanced data
+              visualization tools for statistical analysis of climate data.
+            </li>
+            <li>Presented key findings to mentors and peers.</li>
+          </ul>
+        </div>
       </article>
     </section>
 
-    <br />
-
-    <section id="achievements">
-      <h3>ACHIEVEMENTS</h3>
-      <hr />
+    <section class="achievements">
+      <h3 class="title">ACHIEVEMENTS</h3>
       <article id="bpc">
         <strong
           >Top 10 Placement, Women in Computing Programming Competition
