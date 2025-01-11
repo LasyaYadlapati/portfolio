@@ -111,9 +111,6 @@ section {
   background-color: rgb(219, 224, 230);
   border-bottom: 2px solid #ccc;
 }
-.areas_of_expertise {
-  padding: 20px;
-}
 
 .expertise-grid {
   display: grid;
@@ -122,11 +119,9 @@ section {
 }
 
 .expertise-item {
-  padding: 15px;
   text-align: center;
-  border: 1px solid gray;
-  border-radius: 5px;
 }
+
 .experience,
 .experience article,
 .experience ul {
