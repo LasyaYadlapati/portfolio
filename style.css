@@ -90,17 +90,17 @@ button {
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
 
-.projects article {
+/* .projects article {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
-}
-
+} */
+/*
 .projects article h2 {
   margin: 0;
-}
+} */
 
-.resume,
+/* .resume,
 .bio {
   text-align: center;
 }
@@ -180,9 +180,9 @@ section {
 .education ul {
   margin-top: 0.5em;
   margin-left: 1em;
-}
+} */
 
-.projects {
+/* .projects {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -202,4 +202,4 @@ section {
 .projects .project-link a:hover,
 .experience .description a:hover {
   text-decoration: underline;
-}
+} */
