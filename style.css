@@ -182,24 +182,24 @@ section {
   margin-left: 1em;
 }
 
-.projects-section {
+.projects {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.projects-section .description ul {
+.projects .description ul {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 0.5em;
 }
 
-.projects-section .project-link a,
+.projects .project-link a,
 .experience .description a {
   color: #226ebe;
   text-decoration: none;
 }
 
-.projects-section .project-link a:hover,
+.projects .project-link a:hover,
 .experience .description a:hover {
   text-decoration: underline;
 }
