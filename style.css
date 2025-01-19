@@ -90,17 +90,17 @@ button {
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
 
-/* .projects article {
+.projects article {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
-} */
-/*
+}
+
 .projects article h2 {
   margin: 0;
-} */
+}
 
-/* .resume,
+.resume,
 .bio {
   text-align: center;
 }
@@ -180,26 +180,26 @@ section {
 .education ul {
   margin-top: 0.5em;
   margin-left: 1em;
-} */
+}
 
-/* .projects {
+.projects-section {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.projects .description ul {
+.projects-section .description ul {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 0.5em;
 }
 
-.projects .project-link a,
+.projects-section .project-link a,
 .experience .description a {
   color: #226ebe;
   text-decoration: none;
 }
 
-.projects .project-link a:hover,
+.projects-section .project-link a:hover,
 .experience .description a:hover {
   text-decoration: underline;
-} */
+}
