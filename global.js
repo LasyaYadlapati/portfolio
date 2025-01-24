@@ -64,12 +64,12 @@ document.body.insertAdjacentHTML(
 
 const select = document.querySelector('select[name="color-scheme"]');
 
-if (localStorage.getItem("colorScheme")) {
+if ("colorScheme" in localStorage) {
   document.documentElement.style.setProperty(
     "color-scheme",
-    localStorage.getItem("colorScheme")
+    localStorage.colorScheme
   );
-  select.value = localStorage.getItem("colorScheme");
+  select.value = localStorage.colorScheme;
 }
 
 select.addEventListener("input", function (event) {
