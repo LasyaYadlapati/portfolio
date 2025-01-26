@@ -87,14 +87,6 @@ export async function fetchJSON(url) {
   try {
     // Fetch the JSON file from the given URL
     const response = await fetch(url);
-    console.log(response);
-
-    if (!response.ok) {
-      throw new Error(`Failed to fetch projects: ${response.statusText}`);
-    }
-
-    const data = await response.json(); // Convert response to JSON
-    console.log(data); // Log the data for inspection
   } catch (error) {
     console.error("Error fetching or parsing JSON data:", error);
   }
