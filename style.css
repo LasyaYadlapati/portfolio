@@ -106,6 +106,7 @@ button {
 
 .projects article h2 {
   margin: 0;
+  padding: 5;
 }
 
 .resume,
@@ -218,4 +219,20 @@ section {
   right: 1rem;
   font-size: 80%;
   font-family: inherit;
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  grid-auto-rows: auto;
+}
+
+#profile-stats dt {
+  font-weight: bold;
+  grid-row: 1;
+}
+
+#profile-stats dd {
+  grid-row: 2;
 }
