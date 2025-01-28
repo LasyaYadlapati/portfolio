@@ -78,7 +78,7 @@ nav a.current:hover {
 }
 
 #me {
-  border-radius: 8px;
+  border-radius: 50px;
   width: 30%;
   height: 30%;
 }
@@ -121,7 +121,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 25px;
 }
 
 #desc {
@@ -265,7 +265,7 @@ section {
 }
 
 #profile-stats dt {
-  font-weight: bold;
+  /* font-weight: bold; */
   grid-row: 1;
 }
 
