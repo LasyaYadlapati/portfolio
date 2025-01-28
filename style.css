@@ -259,16 +259,19 @@ section {
 
 #profile-stats dl {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  font-family: inherit;
 }
 
 #profile-stats dt {
-  /* font-weight: bold; */
+  font-weight: lighter;
   grid-row: 1;
+  font-family: inherit;
 }
 
 #profile-stats dd {
   grid-row: 2;
+  margin-left: 5px;
+  font-family: inherit;
 }

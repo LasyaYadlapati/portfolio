@@ -2,25 +2,25 @@
   {
     "title": "Power Outages Data Analysis",
     "year": "2024",
-    "image": "../images/power-outages.png",
+    "image": "/portfolio/images/power-outages.png",
     "description": "<ul><li>Analyzed a U.S. power outages dataset (2000-2016) to identify patterns in outage causes and their relationship to factors like region, climate, and outage duration.</li><li>Developed a Random Forest classifier to predict outage causes, improving accuracy by 18.6% and increasing F1-score by 29.5% through feature engineering and hyperparameter optimization.</li><li>Conducted fairness analysis to assess model performance across US states, concluding no significant precision bias between large and small populations.</li></ul>"
   },
   {
     "title": "Meteorite Data Analysis",
     "year": "2023",
-    "image": "../images/meteorites.png",
+    "image": "/portfolio/images/meteorites.png",
     "description": "<ul><li>Analyzed meteorite landing data using hypothesis tests, permutation tests, and bootstrap methods to explore patterns in meteorite masses and geographic distribution.</li><li>Performed data simulations to assess the impact of continent-specific factors and time periods on meteorite size and frequency using Python and statistical techniques.</li><li>Implemented hypothesis tests and confidence intervals to evaluate the relationship between meteorite mass and continent-specific trends, including the impact of the 2000s on observed meteorite data.</li></ul>"
   },
   {
     "title": "A Data-Driven Analysis of Taylor Swift's Music",
     "year": "2023",
-    "image": "../images/t-swift.png",
+    "image": "/portfolio/images/t-swift.png",
     "description": "<ul><li>Created interactive Matplotlib visualizations to analyze Taylor Swift's musical trends, including song releases, relationships between audio features, and tone of lyrics.</li><li>Developed a song recommender system by applying Euclidean distance to compare audio features, allowing users to find similar Taylor Swift songs based on a chosen track from the Spotify's Billions Club list.</li><li>Used natural language processing with TF-IDF to extract key themes from lyrics in the Lover album, generating word clouds and identifying song-specific keywords to summarize the album's narrative.</li></ul>"
   },
   {
     "title": "Climate Change Anomalies Analysis",
     "year": "2022",
-    "image": "../images/climate_change.png",
+    "image": "/portfolio/images/climate_change.png",
     "description": "<ul><li>Used real-world climate change datasets and led a team of peers under expert guidance to investigate the intricate relationship between carbon dioxide levels and global temperature anomalies.</li><li>Utilized Python, Pandas, NumPy, Scikit-learn, and advanced data visualization tools, to perform comprehensive statistical analyses to uncover valuable insights regarding climate change and fluctuating global temperatures.</li><li>Subsequently presented our key findings to mentors and peers.</li></ul>"
   },
   {
