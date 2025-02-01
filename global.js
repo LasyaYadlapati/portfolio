@@ -104,7 +104,7 @@ export function renderProjects(
   containerElement,
   headingLevel = "h2"
 ) {
-  console.log(containerElement);
+  // console.log(containerElement);
   containerElement.innerHTML = "";
 
   for (let project of projects) {
