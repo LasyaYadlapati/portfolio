@@ -12,8 +12,8 @@ if (projectsTitle) {
 }
 
 let colors = d3.scaleOrdinal(d3.schemeTableau10);
-let selectedIndex = -1;
 
+let selectedIndex = -1;
 function renderPieChart(projectsGiven) {
   let newRolledData = d3.rollups(
     projectsGiven,
@@ -27,6 +27,7 @@ function renderPieChart(projectsGiven) {
 
   let newArcGenerator = d3.arc().innerRadius(0).outerRadius(50);
   let newSliceGenerator = d3.pie().value((d) => d.value);
+
   let newArcData = newSliceGenerator(newData);
   let newArcs = newArcData.map((d) => newArcGenerator(d));
 
@@ -46,12 +47,12 @@ function renderPieChart(projectsGiven) {
         selectedIndex = selectedIndex === i ? -1 : i;
 
         // Toggle class to highlight the clicked slice
-        newSVG
-          .selectAll("path")
-          .attr("class", (_, i) => (selectedIndex === i ? "selected" : ""));
-
         legend
           .selectAll("li")
+          .attr("class", (_, i) => (selectedIndex === i ? "selected" : ""));
+
+        newSVG
+          .selectAll("path")
           .attr("class", (_, i) => (selectedIndex === i ? "selected" : ""));
 
         // Filter and render projects based on selected year
@@ -77,12 +78,12 @@ function renderPieChart(projectsGiven) {
         selectedIndex = selectedIndex === i ? -1 : i;
 
         // Toggle class to highlight the clicked slice
-        newSVG
-          .selectAll("path")
-          .attr("class", (_, i) => (selectedIndex === i ? "selected" : ""));
-
         legend
           .selectAll("li")
+          .attr("class", (_, i) => (selectedIndex === i ? "selected" : ""));
+
+        newSVG
+          .selectAll("path")
           .attr("class", (_, i) => (selectedIndex === i ? "selected" : ""));
 
         // Filter and render projects based on selected year
