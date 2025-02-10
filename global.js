@@ -12,6 +12,7 @@ let pages = [
   { url: "../portfolio/contact/index.html", title: "Contact" },
   { url: "../portfolio/projects/index.html", title: "Projects" },
   { url: "../portfolio/resume/index.html", title: "Resume" },
+  { url: "../portfolio/meta/index.html", title: "Meta" },
   { url: "https://github.com/LasyaYadlapati", title: "GitHub Profile" },
 ];
 
