@@ -445,3 +445,10 @@ dl.info[hidden]:not(:hover, :focus-within) {
 circle.selected {
   fill: #ff6b6b;
 }
+
+dt,
+dl,
+dd,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
