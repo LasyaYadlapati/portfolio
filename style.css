@@ -295,6 +295,7 @@ section {
   border: 1px solid #ccc;
   padding: 1em;
   flex: 1;
+  row-gap: 1em;
 }
 
 .legend li {
