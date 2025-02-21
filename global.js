@@ -114,7 +114,7 @@ export function renderProjects(
       <h4 id="year">${project.year}</h4>
       <img src="${project.image}" alt="${project.title}">
       <div id="desc">${project.description}</div>
-      <div id="url">PROJECT LINK: ${project.url}</div>
+      <div id="url">${project.url}</div>
     `;
     containerElement.appendChild(article);
   }

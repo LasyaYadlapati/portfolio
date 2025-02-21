@@ -4,7 +4,7 @@
     "year": "2025",
     "image": "/portfolio/images/bikewatching.png",
     "description": "<ul><li>Designed and implemented an interactive data visualization using D3.js to analyze and display bike traffic across Boston</li><li>Integrated real-time filtering and dynamic map-based visual elements to showcase departures, arrivals, and balanced bike station traffic flow.</li><li>Optimized performance and user experience by leveraging efficient data processing techniques and intuitive UI elements</li></ul>",
-    "url": "<a href='https://lasyayadlapati.github.io/bikewatching/'>https://lasyayadlapati.github.io/bikewatching/</a>"
+    "url": "PROJECT LINK: <a href='https://lasyayadlapati.github.io/bikewatching/'>https://lasyayadlapati.github.io/bikewatching/</a>"
   },
   {
     "title": "Power Outages Data Analysis",
