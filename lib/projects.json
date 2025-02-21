@@ -1,74 +1,85 @@
 [
   {
+    "title": "Bikewatching",
+    "year": "2025",
+    "image": "/portfolio/images/bikewatching.png",
+    "description": "<ul><li>Designed and implemented an interactive data visualization using D3.js to analyze and display bike traffic across Boston</li><li>Integrated real-time filtering and dynamic map-based visual elements to showcase departures, arrivals, and balanced bike station traffic flow.</li><li>Optimized performance and user experience by leveraging efficient data processing techniques and intuitive UI elements</li></ul>",
+    "url": "<a href='https://lasyayadlapati.github.io/bikewatching/'>https://lasyayadlapati.github.io/bikewatching/</a>"
+  },
+  {
     "title": "Power Outages Data Analysis",
     "year": "2024",
     "image": "/portfolio/images/power-outages.png",
-    "description": "<ul><li>Analyzed a U.S. power outages dataset (2000-2016) to identify patterns in outage causes and their relationship to factors like region, climate, and outage duration.</li><li>Developed a Random Forest classifier to predict outage causes, improving accuracy by 18.6% and increasing F1-score by 29.5% through feature engineering and hyperparameter optimization.</li><li>Conducted fairness analysis to assess model performance across US states, concluding no significant precision bias between large and small populations.</li></ul>"
+    "description": "<ul><li>Analyzed a U.S. power outages dataset (2000-2016) to identify patterns in outage causes and their relationship to factors like region, climate, and outage duration.</li><li>Developed a Random Forest classifier to predict outage causes, improving accuracy by 18.6% and increasing F1-score by 29.5% through feature engineering and hyperparameter optimization.</li><li>Conducted fairness analysis to assess model performance across US states, concluding no significant precision bias between large and small populations.</li></ul>",
+    "url": ""
   },
   {
     "title": "Meteorite Data Analysis",
     "year": "2023",
     "image": "/portfolio/images/meteorites.png",
-    "description": "<ul><li>Analyzed meteorite landing data using hypothesis tests, permutation tests, and bootstrap methods to explore patterns in meteorite masses and geographic distribution.</li><li>Performed data simulations to assess the impact of continent-specific factors and time periods on meteorite size and frequency using Python and statistical techniques.</li><li>Implemented hypothesis tests and confidence intervals to evaluate the relationship between meteorite mass and continent-specific trends, including the impact of the 2000s on observed meteorite data.</li></ul>"
+    "description": "<ul><li>Analyzed meteorite landing data using hypothesis tests, permutation tests, and bootstrap methods to explore patterns in meteorite masses and geographic distribution.</li><li>Performed data simulations to assess the impact of continent-specific factors and time periods on meteorite size and frequency using Python and statistical techniques.</li><li>Implemented hypothesis tests and confidence intervals to evaluate the relationship between meteorite mass and continent-specific trends, including the impact of the 2000s on observed meteorite data.</li></ul>",
+    "url": ""
   },
   {
     "title": "A Data-Driven Analysis of Taylor Swift's Music",
     "year": "2023",
     "image": "/portfolio/images/t-swift.png",
-    "description": "<ul><li>Created interactive Matplotlib visualizations to analyze Taylor Swift's musical trends, including song releases, relationships between audio features, and tone of lyrics.</li><li>Developed a song recommender system by applying Euclidean distance to compare audio features, allowing users to find similar Taylor Swift songs based on a chosen track from the Spotify's Billions Club list.</li><li>Used natural language processing with TF-IDF to extract key themes from lyrics in the Lover album, generating word clouds and identifying song-specific keywords to summarize the album's narrative.</li></ul>"
+    "description": "<ul><li>Created interactive Matplotlib visualizations to analyze Taylor Swift's musical trends, including song releases, relationships between audio features, and tone of lyrics.</li><li>Developed a song recommender system by applying Euclidean distance to compare audio features, allowing users to find similar Taylor Swift songs based on a chosen track from the Spotify's Billions Club list.</li><li>Used natural language processing with TF-IDF to extract key themes from lyrics in the Lover album, generating word clouds and identifying song-specific keywords to summarize the album's narrative.</li></ul>",
+    "url": ""
   },
   {
     "title": "Climate Change Anomalies Analysis",
     "year": "2022",
     "image": "/portfolio/images/climate_change.png",
-    "description": "<ul><li>Used real-world climate change datasets and led a team of peers under expert guidance to investigate the intricate relationship between carbon dioxide levels and global temperature anomalies.</li><li>Utilized Python, Pandas, NumPy, Scikit-learn, and advanced data visualization tools, to perform comprehensive statistical analyses to uncover valuable insights regarding climate change and fluctuating global temperatures.</li><li>Subsequently presented our key findings to mentors and peers.</li></ul>"
+    "description": "<ul><li>Used real-world climate change datasets and led a team of peers under expert guidance to investigate the intricate relationship between carbon dioxide levels and global temperature anomalies.</li><li>Utilized Python, Pandas, NumPy, Scikit-learn, and advanced data visualization tools, to perform comprehensive statistical analyses to uncover valuable insights regarding climate change and fluctuating global temperatures.</li><li>Subsequently presented our key findings to mentors and peers.</li></ul>",
+    "url": ""
   },
   {
     "title": "Commodi repellendus eaque officia.",
     "year": "2021",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Eveniet libero perferendis porro nam minus quia, nobis a quisquam vel.</li><li>Commodi velit quo voluptatum neque laboriosam rem dignissimos quae minima.</li><li>Vitae fuga sequi eos laboriosam soluta dolor excepturi exercitationem.</li></ul>"
+    "description": "<ul><li>Eveniet libero perferendis porro nam minus quia, nobis a quisquam vel.</li><li>Commodi velit quo voluptatum neque laboriosam rem dignissimos quae minima.</li><li>Vitae fuga sequi eos laboriosam soluta dolor excepturi exercitationem.</li></ul>",
+    "url": ""
   },
   {
     "title": "Vitae obcaecati reiciendis sequi.",
     "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Vero neque porro molestias ratione, in earum mollitia?</li><li>Repellat animi tempore ab, recusandae molestias quos quia saepe cum ad molestiae.</li><li>Magni, laudantium.</li></ul>"
+    "description": "<ul><li>Vero neque porro molestias ratione, in earum mollitia?</li><li>Repellat animi tempore ab, recusandae molestias quos quia saepe cum ad molestiae.</li><li>Magni, laudantium.</li></ul>",
+    "url": ""
   },
   {
     "title": "Nam nostrum unde eligendi.",
     "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Veritatis iusto enim veniam distinctio nam, voluptatum voluptates sapiente autem!</li><li>Veniam dicta cumque commodi delectus ipsam corrupti similique dolorum, earum aspernatur sed quaerat enim, quidem exercitationem?</li><li>Possimus aut quod nam.</li></ul>"
+    "description": "<ul><li>Veritatis iusto enim veniam distinctio nam, voluptatum voluptates sapiente autem!</li><li>Veniam dicta cumque commodi delectus ipsam corrupti similique dolorum, earum aspernatur sed quaerat enim, quidem exercitationem?</li><li>Possimus aut quod nam.</li></ul>",
+    "url": ""
   },
   {
     "title": "Quos autem adipisci corrupti.",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Incidunt ex ipsam deleniti ullam.</li><li>Esse saepe voluptatibus possimus quod eaque dolor voluptatem incidunt inventore distinctio, repellat omnis, earum neque ipsum ducimus.</li><li>Incidunt totam, voluptas inventore accusamus quibusdam sunt ex.</li></ul>"
+    "description": "<ul><li>Incidunt ex ipsam deleniti ullam.</li><li>Esse saepe voluptatibus possimus quod eaque dolor voluptatem incidunt inventore distinctio, repellat omnis, earum neque ipsum ducimus.</li><li>Incidunt totam, voluptas inventore accusamus quibusdam sunt ex.</li></ul>",
+    "url": ""
   },
   {
     "title": "Quae quam eius at?",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Hic cumque nesciunt optio voluptates ab quam eius sint eaque repellat culpa iure laborum fugiat doloribus quasi ea dolor, quae illum deserunt?</li><li>Facere non cupiditate, accusamus inventore unde repellendus praesentium.</li></ul>"
+    "description": "<ul><li>Hic cumque nesciunt optio voluptates ab quam eius sint eaque repellat culpa iure laborum fugiat doloribus quasi ea dolor, quae illum deserunt?</li><li>Facere non cupiditate, accusamus inventore unde repellendus praesentium.</li></ul>",
+    "url": ""
   },
   {
     "title": "Quae obcaecati quibusdam officia!",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Accusantium dolorum unde harum obcaecati maiores fugiat magni consequatur consequuntur fugit vero iusto ratione placeat autem non.</li><li>Itaque beatae facere earum voluptatum deleniti nulla.</li><li>Rem pariatur obcaecati veniam nostrum adipisci!</li></ul>"
+    "description": "<ul><li>Accusantium dolorum unde harum obcaecati maiores fugiat magni consequatur consequuntur fugit vero iusto ratione placeat autem non.</li><li>Itaque beatae facere earum voluptatum deleniti nulla.</li><li>Rem pariatur obcaecati veniam nostrum adipisci!</li></ul>",
+    "url": ""
   },
   {
     "title": "Facilis sequi similique officia.",
     "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "<ul><li>Fugit consequatur facilis odio, ratione ut pariatur beatae perspiciatis iste aspernatur, neque accusamus quo at dolorum quos eveniet hic enim eligendi omnis nisi, aliquam mollitia voluptas laborum officia?</li><li>Id, incidunt.</li></ul>"
-  },
-  {
-    "title": "A magni magnam ea.",
-    "year": "2024",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "<ul><li>Ipsum, dicta! Neque dolores porro enim quae soluta animi, tempora rem sapiente vitae praesentium dolor quam fugiat cupiditate veritatis id officiis blanditiis.</li><li>Cumque, sit culpa? Eaque molestiae harum perspiciatis commodi.</li></ul>"
   }
 ]

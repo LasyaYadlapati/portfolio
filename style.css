@@ -2,7 +2,8 @@ body {
   /* Set line height to 1.5 times the font size
 	   and use the OS’s UI font as the website font
 	 */
-  font: 100%/1.5 system-ui;
+  font: 100%/1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   max-width: 100ch;
   margin-inline: max(2em, (100% - 100ch) / 2);
   accent-color: var(--color-accent);
@@ -53,11 +54,9 @@ nav a:hover {
   border-bottom: 0.4em solid var(--color-accent);
   /* background-color: oklch(62.98% 0.0937 205.96 / 12%); */
 
-  background-color: color-mix(
-    in oklch,
-    oklch(62.98% 0.0937 205.96 / 12%),
-    canvas 10%
-  );
+  background-color: color-mix(in oklch,
+      oklch(62.98% 0.0937 205.96 / 12%),
+      canvas 10%);
 }
 
 nav a.current {
@@ -126,6 +125,13 @@ button {
 
 #desc {
   padding-top: 16em;
+  margin-right: 3em;
+  margin-left: 1em;
+  width: 85%;
+}
+
+#url {
+  padding-top: 30em;
   margin-right: 3em;
   margin-left: 1em;
   width: 85%;
@@ -430,7 +436,8 @@ dl.info[hidden]:not(:hover, :focus-within) {
 
 @keyframes marching-ants {
   to {
-    stroke-dashoffset: -8; /* 5 + 3 */
+    stroke-dashoffset: -8;
+    /* 5 + 3 */
   }
 }
 
