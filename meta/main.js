@@ -229,6 +229,7 @@ function brushed(event) {
   brushSelection = event.selection;
   updateSelection();
   updateLanguageBreakdown();
+  updateSelectionCount();
 }
 
 function isCommitSelected(commit) {
