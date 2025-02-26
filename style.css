@@ -454,9 +454,10 @@ circle.selected {
   fill: #ff6b6b;
 }
 
+
 dt,
 dl,
 dd,
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
