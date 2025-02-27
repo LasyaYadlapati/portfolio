@@ -94,8 +94,16 @@ label {
   grid-column: 1 / -1;
 }
 
+.contact-page label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+}
+
+
 button {
   grid-column: 1 / -1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .projects {
@@ -468,7 +476,7 @@ p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-label {
+label #time-slider {
   margin-left: auto;
   font-size: 1em;
   display: flex;
