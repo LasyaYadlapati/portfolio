@@ -4,6 +4,7 @@ let selectedCommits = [];
 let commits = [];
 let filteredCommits = [];
 let filteredLines = [];
+let files = [];
 
 async function loadData() {
   data = await d3.csv("loc.csv", (row) => ({
@@ -16,6 +17,7 @@ async function loadData() {
   }));
   processCommits();
   displayStats();
+  updateFileVis();
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -52,6 +54,7 @@ function processCommits() {
 
       return ret;
     });
+  commits.sort((a, b) => d3.ascending(a.datetime, b.datetime));
 
   let commitProgress = 100;
   let timeScale = d3.scaleTime(
@@ -86,13 +89,12 @@ function processCommits() {
       })
     );
 
-    // Update global filteredCommits and filteredLines
     filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
     filteredLines = data.filter((d) => d.datetime <= commitMaxTime);
 
-    // Update the scatterplot and stats
     createScatterplot();
     displayStats();
+    updateFileVis();
   });
 }
 
@@ -341,4 +343,39 @@ function updateLanguageBreakdown() {
   }
 
   return breakdown;
+}
+
+function updateFileVis() {
+  let files = d3
+    .groups(filteredLines, (d) => d.file)
+    .map(([name, lines]) => {
+      return { name, lines };
+    });
+
+  files = d3.sort(files, (d) => -d.lines.length);
+
+  d3.select(".files").selectAll("div").remove();
+  const filesContainer = d3
+    .select(".files")
+    .selectAll("div")
+    .data(files)
+    .enter()
+    .append("div");
+
+  let fileTypeColors = d3.scaleOrdinal(d3.schemeTableau10);
+
+  filesContainer
+    .append("dt")
+    .append("code")
+    .text((d) => d.name);
+
+  filesContainer
+    .append("dd")
+    .attr("class", "unit-vis")
+    .selectAll("div.line")
+    .data((d) => d.lines)
+    .enter()
+    .append("div")
+    .attr("class", "line")
+    .style("background", (d) => fileTypeColors(d.type));
 }

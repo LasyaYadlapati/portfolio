@@ -26,7 +26,10 @@ function renderPieChart(projectsGiven) {
   });
 
   let newArcGenerator = d3.arc().innerRadius(0).outerRadius(50);
-  let newSliceGenerator = d3.pie().value((d) => d.value);
+  let newSliceGenerator = d3
+    .pie()
+    .value((d) => d.value)
+    .sort(null);
 
   let newArcData = newSliceGenerator(newData);
   let newArcs = newArcData.map((d) => newArcGenerator(d));
